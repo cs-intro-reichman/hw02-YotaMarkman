@@ -65,15 +65,15 @@ public static void main ( String[]args )
 		System.out.println( "Number of families with 4 or more children: " + count4 );
 		if ( count2 > count3 && count2 > count4 )
 		{
-			System.out.println( "The most common number of children is 2" );
+			System.out.println( "The most common number of children is 2." );
 		}
 		else if ( count3 > count2 && count3 > count4 )
 		{
-			System.out.println( "The most common number of children is 3" );
+			System.out.println( "The most common number of children is 3." );
 		}
 		else if ( count4 > count3 && count4 > count2 )
 		{
-			System.out.println( "The most common number of children is 4 or more" );
+			System.out.println( "The most common number of children is 4 or more." );
 		}
 		else
 		{

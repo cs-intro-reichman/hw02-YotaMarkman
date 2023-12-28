@@ -7,13 +7,13 @@ public class Reverse
 		for ( int i = word.length() - 1; i >= 0; i-- )
 		{
 			System.out.print ( word.charAt(i) );
-			if ( i == word.length()/2 && word.length() % 2 == 1)
+			if ( i == word.length()/2 &&  ( word.length() % 2 == 1) )
 			{
 				middle = word.charAt(i);
 			}
 			else
 			{
-				middle = word.charAt(i+1);
+				middle = word.charAt(i-1);
 			}
 		}
 		System.out.println();

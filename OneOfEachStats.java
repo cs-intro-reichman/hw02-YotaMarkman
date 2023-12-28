@@ -62,7 +62,7 @@ public static void main ( String[]args )
 		System.out.println( "Average " + average + " children to get at least one of each gender." );
 		System.out.println( "Number of families with 2 children: " + count2 );
 		System.out.println( "Number of families with 3 children: " + count3 );
-		System.out.println( "Number of families with 4 children or more: " + count4 );
+		System.out.println( "Number of families with 4 or more children: " + count4 );
 		if ( count2 > count3 && count2 > count4 )
 		{
 			System.out.println( "The most common number of children is 2" );

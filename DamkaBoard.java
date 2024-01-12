@@ -7,6 +7,8 @@ public class DamkaBoard
 		{
 			for ( int j = 0; j < size; j++ )
 			{
+				// # Feedback: Consider simplifying the conditional statements for better readability.
+                		// You can achieve the same output with a more concise if-else structure.
 				if ( i % 2 == 0 )
 				{
 					System.out.print( "*" + " " );

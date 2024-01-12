@@ -1,5 +1,12 @@
 public class Divisors
 {
+	// # Feedback: Follow consistent indentation rules. In Java, it's common practice to open parentheses on the same line.
+        // Examples:
+        // Correct: 
+	// if (condition) {
+        // Incorrect: 
+	// if ()
+	// {
 	public static void main ( String[]args )
 	{
 		int insertedNum = Integer.parseInt(args[0]);
